@@ -6,6 +6,8 @@ public class Perro extends Animal {
 	
 	private int numeroId;
 	private LocalDate fechaNacimiento;
+	
+	
 	public int getNumeroId() {
 		return numeroId;
 	}

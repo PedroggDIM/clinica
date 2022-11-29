@@ -8,27 +8,27 @@ public abstract class Animal implements Nombrable {
 	public String getRazaAnimal() {
 		return razaAnimal;
 	}
-
+	
 	public String getNombreAnimal() {
 		return nombreAnimal;
 	}
-
+	
 	protected void setRazaAnimal(String razaAnimal) {
 		this.razaAnimal = razaAnimal;
 	}
-
+	
 	protected void setNombreAnimal(String nombreAnimal) {
 		this.nombreAnimal = nombreAnimal;
 	}
-
+	
 	public Animal() {
 	}
-
+	
 	public Animal(String razaAnimal, String nombreAnimal) {
 		setRazaAnimal(razaAnimal);
 		setNombreAnimal(nombreAnimal);
 	}
-
+	
 	@Override
 	public String getNombre() {
 		return getNombreAnimal();
